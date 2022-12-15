@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonEditLocation" type="id"/>
+    <item name="settingsbtn" type="id"/>
+    <item name="buttonSignOut" type="id"/>
+    <item name="mainSpace" type="id"/>
+</resources>

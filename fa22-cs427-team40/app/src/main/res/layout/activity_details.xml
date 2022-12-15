@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:id="@+id/weatherIcon"
+        android:layout_marginTop="300dp">
+    </ImageView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_and_time"
+            android:paddingStart="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="date_and_time"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityName"
+            android:paddingStart="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="cityname"
+          >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/temperature"
+            android:paddingStart="30dp"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:text="0*C"
+          >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherCondition"
+            android:paddingStart="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="weatherCondition"
+           >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/humidity"
+            android:paddingStart="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="humidity"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wind"
+            android:paddingStart="30dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="wind"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:id="@+id/cityFinder"-->
+<!--        android:background="@drawable/buttondesign">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/mapButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:text="Show Map"-->
+<!--            android:textSize="16dp" />-->
+
+
+<!--    </RelativeLayout>-->
+
+</RelativeLayout>
